@@ -1,22 +1,23 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { IonicModule } from '@ionic/angular';
 import { FormsModule } from '@angular/forms';
-import { HomePage } from './home.page';
 
-import { HomePageRoutingModule } from './home-routing.module';
+import { IonicModule } from '@ionic/angular';
+
+import { DetalleProductoPageRoutingModule } from './detalle-producto-routing.module';
+
+import { DetalleProductoPage } from './detalle-producto.page';
 import { ToolbarComponent } from '../components/toolbar/toolbar.component';
 import { ComponentsModule } from '../components/components.module';
-
 
 @NgModule({
   imports: [
     CommonModule,
     FormsModule,
     IonicModule,
-    HomePageRoutingModule,
+    DetalleProductoPageRoutingModule,
     ComponentsModule
   ],
-  declarations: [HomePage]
+  declarations: [DetalleProductoPage]
 })
-export class HomePageModule {}
+export class DetalleProductoPageModule {}

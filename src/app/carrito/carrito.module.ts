@@ -1,22 +1,23 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { IonicModule } from '@ionic/angular';
 import { FormsModule } from '@angular/forms';
-import { HomePage } from './home.page';
 
-import { HomePageRoutingModule } from './home-routing.module';
+import { IonicModule } from '@ionic/angular';
+
+import { CarritoPageRoutingModule } from './carrito-routing.module';
+
+import { CarritoPage } from './carrito.page';
 import { ToolbarComponent } from '../components/toolbar/toolbar.component';
 import { ComponentsModule } from '../components/components.module';
-
 
 @NgModule({
   imports: [
     CommonModule,
     FormsModule,
     IonicModule,
-    HomePageRoutingModule,
+    CarritoPageRoutingModule,
     ComponentsModule
   ],
-  declarations: [HomePage]
+  declarations: [CarritoPage]
 })
-export class HomePageModule {}
+export class CarritoPageModule {}

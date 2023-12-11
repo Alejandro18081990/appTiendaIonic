@@ -1,0 +1,83 @@
+{
+  "productos": [
+    {
+      "id": 1,
+      "nombre": "Smartphone Samsung Galaxy S21",
+      "descripcion": "Teléfono inteligente con cámara de alta resolución y rendimiento excepcional.",
+      "precio": 899.99,
+      "imagen": "samsung_s21.jpg"
+    },
+    {
+      "id": 2,
+      "nombre": "Laptop HP Pavilion x360",
+      "descripcion": "Laptop convertible con pantalla táctil, ideal para trabajo y entretenimiento.",
+      "precio": 1099.99,
+      "imagen": "hp_pavilion.jpg"
+    },
+    {
+      "id": 3,
+      "nombre": "Televisor LG OLED 4K",
+      "descripcion": "Televisor con calidad de imagen Ultra HD y tecnología OLED para colores vibrantes.",
+      "precio": 1799.99,
+      "imagen": "lg_oled.jpg"
+    },
+    {
+      "id": 4,
+      "nombre": "Cámara Canon EOS R5",
+      "descripcion": "Cámara mirrorless con resolución 8K para fotografía y video profesional.",
+      "precio": 3699.99,
+      "imagen": "canon_eos_r5.jpg"
+    },
+    {
+      "id": 5,
+      "nombre": "Apple iPad Pro 12.9''",
+      "descripcion": "Tableta potente con pantalla Retina y procesador A12Z Bionic.",
+      "precio": 1099.99,
+      "imagen": "ipad_pro.jpg"
+    },
+    {
+      "id": 6,
+      "nombre": "Auriculares Sony WH-1000XM4",
+      "descripcion": "Auriculares inalámbricos con cancelación de ruido y alta calidad de sonido.",
+      "precio": 349.99,
+      "imagen": "sony_wh1000xm4.jpg"
+    },
+    {
+      "id": 7,
+      "nombre": "Monitor Gaming ASUS ROG Swift",
+      "descripcion": "Monitor de juego con alta tasa de refresco y tecnología G-SYNC.",
+      "precio": 799.99,
+      "imagen": "asus_rog.jpg"
+    },
+    {
+      "id": 8,
+      "nombre": "Impresora Epson EcoTank",
+      "descripcion": "Impresora multifunción con sistema de tanques de tinta recargables.",
+      "precio": 299.99,
+      "imagen": "epson_ecotank.jpg"
+    },
+    {
+      "id": 9,
+      "nombre": "Robot aspirador iRobot Roomba",
+      "descripcion": "Robot inteligente para limpieza automática de suelos y alfombras.",
+      "precio": 499.99,
+      "imagen": "irobot_roomba.jpg"
+    },
+    {
+      "id": 10,
+      "nombre": "Altavoz Bluetooth JBL Charge 5",
+      "descripcion": "Altavoz portátil resistente al agua con batería de larga duración.",
+      "precio": 179.99,
+      "imagen": "jbl_charge5.jpg"
+    }
+  ],
+  "carrito": [
+    {
+      "id": 1,
+      "nombre": "Smartphone Samsung Galaxy S21",
+      "descripcion": "Teléfono inteligente con cámara de alta resolución y rendimiento excepcional.",
+      "precio": 899.99,
+      "imagen": "samsung_s21.jpg"
+    }
+  ]
+}

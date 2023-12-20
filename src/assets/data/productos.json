@@ -71,13 +71,5 @@
       "imagen": "jbl_charge5.jpg"
     }
   ],
-  "carrito": [
-    {
-      "id": 1,
-      "nombre": "Smartphone Samsung Galaxy S21",
-      "descripcion": "Teléfono inteligente con cámara de alta resolución y rendimiento excepcional.",
-      "precio": 899.99,
-      "imagen": "samsung_s21.jpg"
-    }
-  ]
+  "carrito": []
 }

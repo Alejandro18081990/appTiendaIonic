@@ -8,10 +8,10 @@ import { Producto } from '../interfaces/producto';
 })
 export class FireBaseServiceService {
 
-  constructor(private firestore : AngularFirestore) { }
+  constructor(private firestore: AngularFirestore) { }
 
-  getAll(): Observable<Producto> {
+  getAll(): Observable<Producto[]> {
     console.log("llamando a firebase")
-    return this.firestore.collection('Productos').valueChanges();
+    return this.firestore.collection<Producto>('productosCatalogo').valueChanges();
   }
 }

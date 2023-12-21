@@ -2,6 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { TiendaServicesService } from '../services/tienda-services.service';
 import { Producto } from '../interfaces/producto';
 import { FireBaseServiceService } from '../services/fire-base-service.service';
+import { DOCUMENT } from '@angular/common';
 
 @Component({
   selector: 'app-home',
@@ -25,6 +26,7 @@ export class HomePage implements OnInit {
   getAllFB(){
     this.firebase.getAll().subscribe((s) => {
       this.listaProductos = s;
+      
     })
   }
 
